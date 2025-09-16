@@ -42,7 +42,7 @@
 Clone the repository and install dependencies:
 
 ```bash
-git clone [https://github.com/mburnwal88/chatboat-using-mern.git]
+git clone [<https://github.com/mburnwal88/chatboat-using-mern.git>]
 cd CHATBOAT-USING-MERN
 npm install
 ```
@@ -164,6 +164,7 @@ OLLAMA_MODEL=YOUR_LOCAL_OLLAMA_MODEL
 * If `npm start` fails, ensure you have **Node.js >=18** and **npm >=9** installed.
 * If dependencies are missing, run `npm install` inside the **frontend** and **backend** folders separately.
 * For port conflicts, change the ports in `.env` or start scripts.
+
 
 
 
