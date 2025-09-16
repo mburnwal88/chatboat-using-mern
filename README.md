@@ -1,6 +1,6 @@
 # CHATBOAT-USING-MERN
 
-> A full-stack MERN monorepo project with separate frontend (React) and backend (Node.js/Express) running concurrently.
+> A Chatboat using Ollama local model and MERN stack tech skills monorepo project with separate frontend (React) and backend (Node.js/Express) running concurrently.
 
 ---
 
@@ -134,4 +134,5 @@ OLLAMA_MODEL=YOUR_LOCAL_OLLAMA_MODEL
 * If `npm start` fails, ensure you have **Node.js >=18** and **npm >=9** installed.
 * If dependencies are missing, run `npm install` inside the **frontend** and **backend** folders separately.
 * For port conflicts, change the ports in `.env` or start scripts.
+
 
