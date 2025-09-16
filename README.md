@@ -42,7 +42,7 @@
 Clone the repository and install dependencies:
 
 ```bash
-git clone [<repository-url>](https://github.com/mburnwal88/chatboat-using-mern.git)
+git clone [https://github.com/mburnwal88/chatboat-using-mern.git]
 cd CHATBOAT-USING-MERN
 npm install
 ```
@@ -75,17 +75,41 @@ npm start
 ## Folder Structure
 
 ```
-CHATBOAT-USING-MERN/
-│  package.json      # root scripts only
-│  node_modules/     # root dev tools like concurrently
+CHATBOT-USING-MERN/
 │
-├─ frontend/
-│  ├─ package.json   # frontend dependencies & scripts
-│  └─ node_modules/
+├── backend/
+│ ├── .env # Environment variables
+│ ├── package.json # Backend dependencies
+│ ├── package-lock.json
+│ └── server.js # Express server
 │
-└─ backend/
-   ├─ package.json   # backend dependencies & scripts
-   └─ node_modules/
+├── frontend/
+│ ├── node_modules/ # Frontend dependencies
+│ ├── public/
+│ │ ├── favicon.ico
+│ │ ├── index.html
+│ │ ├── logo192.png
+│ │ ├── logo512.png
+│ │ ├── manifest.json
+│ │ └── robots.txt
+│ │
+│ ├── src/
+│ │ ├── App.css
+│ │ ├── App.js
+│ │ ├── App.test.js
+│ │ ├── index.css
+│ │ ├── index.js
+│ │ ├── logo.svg
+│ │ ├── reportWebVitals.js
+│ │ └── setupTests.js
+│ │
+│ ├── package.json
+│ └── package-lock.json
+│
+├── node_modules/ # Root node modules
+├── .gitignore
+├── package.json # Root package.json (if applicable)
+└── package-lock.json
 ```
 
 ---
@@ -140,6 +164,7 @@ OLLAMA_MODEL=YOUR_LOCAL_OLLAMA_MODEL
 * If `npm start` fails, ensure you have **Node.js >=18** and **npm >=9** installed.
 * If dependencies are missing, run `npm install` inside the **frontend** and **backend** folders separately.
 * For port conflicts, change the ports in `.env` or start scripts.
+
 
 
 
