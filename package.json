@@ -1,0 +1,16 @@
+{
+    "name": "chatboat-using-mern",
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend"
+    ],
+    "scripts": {
+        "start:backend": "npm start --prefix backend",
+        "start:frontend": "npm start --prefix frontend",
+        "start": "npx concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
